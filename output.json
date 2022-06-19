@@ -2,9 +2,9 @@
 layout: none
 ---
 [{% for post in site.posts %}{
-	"Uid": "{{post.Uid}}"
-	"Aid1": "{{post.Aid1}}"
-	"Aid2": "{{post.Aid2}}"
-	"Aid3": "{{post.Aid3}}"
+	"Uid": "{{post.Uid}}",
+	"Aid1": "{{post.Aid1}}",
+	"Aid2": "{{post.Aid2}}",
+	"Aid3": "{{post.Aid3}}",
 	"Aid4": "{{post.Aid4}}"
 }{% if forloop.rindex0 > 0 %},{% endif %}{% endfor %}]
